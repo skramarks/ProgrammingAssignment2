@@ -84,7 +84,6 @@ cacheSolve <- function(x, ...) {
         #
         # The inverse was already calcualted, return it.
         #
-        message("getting cached data")
         return(invertedMatrix)
     }
     
